@@ -8,8 +8,8 @@ import confetti from "canvas-confetti";
 function App() {
     useEffect(() => {
         confetti({
-      particleCount: 200,  
-      spread: 70,         
+      particleCount: 500,  
+      spread: 120,         
       origin: { y: 0.6 }   
     });
     }, [])
