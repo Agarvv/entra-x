@@ -1,45 +1,14 @@
-import React, { useEffect } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import confetti from "canvas-confetti";
-
-
+import ShowButton from './components/home/show-button/show-button'
+import styles from './App.module.css'
 
 function App() {
-    useEffect(() => {
-        
-        const audio = new Audio("/partyblower.mp3")
-        audio.volume = 0.2; 
-        
-        audio.play();
-        
-        
-        confetti({
-      particleCount: 500,  
-      spread: 120,         
-      origin: { y: 0.6 }   
-    });
-    
-    
-    }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className={styles.buttonContainer}>
+         <ShowButton />
     </div>
-  );
+    </>
+  )
 }
 
-export default App;
+export default App
