@@ -7,11 +7,20 @@ import confetti from "canvas-confetti";
 
 function App() {
     useEffect(() => {
+        
+        const audio = new Audio("/partyblower.mp3")
+        audio.volume = 0.2; 
+        
+        audio.play();
+        
+        
         confetti({
       particleCount: 500,  
       spread: 120,         
       origin: { y: 0.6 }   
     });
+    
+    
     }, [])
   return (
     <div className="App">
