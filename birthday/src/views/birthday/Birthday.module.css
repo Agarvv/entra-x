@@ -2,7 +2,7 @@
 .birthdayCtn {
   min-height: 100vh;
   width: 100%;
-  background-image: url("./public/unnamed.jpg");
+  background-image: url("./unnamed.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
