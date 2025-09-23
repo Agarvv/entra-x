@@ -1,4 +1,4 @@
-import { redirect } from "react-router-dom";
+
 import styles from "./Content.module.css"
 
 const Content = () => {
