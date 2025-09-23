@@ -14,7 +14,7 @@ header a {
 }
 
 @media(max-width: 600px) {
-    header {
+    .header {
         padding: 40px;
     }
 }

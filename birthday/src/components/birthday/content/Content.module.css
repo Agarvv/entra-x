@@ -38,4 +38,11 @@
     font-size: 75px;
 }
   
+
+@media(max-width: 600px) {
+    .message {
+        width: 100%;
+    }
+}
+  
 }
