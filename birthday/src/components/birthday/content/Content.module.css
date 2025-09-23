@@ -24,6 +24,7 @@
     text-align: center;
     flex-direction: column;
     gap: 25px;
+    border: 1px solid black;
 }
 
 .message p {
