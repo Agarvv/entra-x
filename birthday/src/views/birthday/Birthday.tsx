@@ -1,5 +1,9 @@
 import { useEffect } from "react";
 import confetti from "canvas-confetti";
+import Header from "../../components/birthday/header/Header";
+import Content from "../../components/birthday/content/Content";
+import styles from "./Birthday.module.css"
+
 
 const Birthday = () => {
     useEffect(() => {
@@ -12,7 +16,12 @@ const Birthday = () => {
 
     }, [])
     return (
-        <h1>Holaaa</h1>
+       <div className={styles.birthdayCtn}>
+          <Header /> 
+          <Content />
+
+          
+       </div>
     )
 }
 
