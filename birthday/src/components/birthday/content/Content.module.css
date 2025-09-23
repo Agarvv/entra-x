@@ -1,5 +1,5 @@
 .congratsCtn {
-    border: 1px solid black;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,8 +8,28 @@
     text-align: center;
 }
 
-.congrats h1 {
+.congrats h1, strong {
     font-size: 100px;
+     font-family: "Caveat Brush", cursive;
+}
+
+.congrats strong {
+    color: rgb(236, 144, 160);
+}
+
+.message {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.message p {
+    font-size: 18px;
+    font-weight: 800;
+     line-height: 1.6
 }
 
 @media(max-width: 815px) {
