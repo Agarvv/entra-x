@@ -2,8 +2,10 @@ import { useEffect } from "react";
 import confetti from "canvas-confetti";
 import Header from "../../components/birthday/header/Header";
 import Content from "../../components/birthday/content/Content";
+import Footer from "../../components/birthday/footer/Footer"
 import styles from "./Birthday.module.css";
 import image from "../../assets/unnamed.jpg";
+
 
 const Birthday = () => {
   useEffect(() => {
@@ -26,7 +28,12 @@ const Birthday = () => {
       }}
     >
       <Header />
+      
+      
       <Content />
+      
+      
+      <Footer /> 
     </div>
   );
 };
