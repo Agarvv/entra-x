@@ -1,4 +1,3 @@
-
 .birthdayCtn {
   min-height: 100vh;
   width: 100%;
@@ -6,13 +5,19 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   position: relative;
   overflow-x: hidden;
 }
 
+@media (max-width: 768px) {
+  .birthdayCtn {
+    background-attachment: scroll;
+    background-size: contain;
+    background-color: #000; 
+  }
+}
 
 
 
