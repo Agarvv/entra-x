@@ -15,10 +15,14 @@ const Birthday = () => {
   }, []);
 
   return (
-    <div
+     <div
       className={styles.birthdayCtn}
       style={{
-        backgroundImage: `url(${image})`
+        backgroundImage: `url(${image})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        
       }}
     >
       <Header />
