@@ -18,11 +18,7 @@ const Birthday = () => {
     <div
       className={styles.birthdayCtn}
       style={{
-        backgroundImage: `url(${image})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
+        backgroundImage: `url(${image})`
       }}
     >
       <Header />
