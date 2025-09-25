@@ -27,7 +27,7 @@ const ShowButton = () => {
     }
   }
 
-  return <button className={styles.button} onClick={surprise}>Hola</button>
+  return <button className={styles.button} onClick={surprise}>Hazme Click ;)</button>
 }
 
 export default ShowButton
