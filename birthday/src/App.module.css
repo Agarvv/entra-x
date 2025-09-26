@@ -8,8 +8,5 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
-   flex-direction: column;
-   text-align: center;
 }
 

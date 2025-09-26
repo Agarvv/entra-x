@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     <div className={styles.buttonContainer}>
-      <p>Carla, Procura subir un poco el volumen para mejor experiencia, pero no muy alto.</p>
+    
          <ShowButton />
     </div>
     </>
