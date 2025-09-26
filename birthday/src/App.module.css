@@ -3,12 +3,13 @@ body {
 }
 
 .buttonContainer {
-  width: 100%;
+  width: 75%;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
    flex-direction: column;
+   text-align: center;
 }
 
